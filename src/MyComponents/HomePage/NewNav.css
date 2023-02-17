@@ -1,38 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.mynav{
-    height: 10vh;
-    background-color: rgb(225,215,152);
-    display: flex;
-    flex-direction: row;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
+.mynav {
+  height: 12vh;
+  background-image: linear-gradient(to bottom right, #4d784e 0%, #e1d798 100%);
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
 }
 
-.navLogo img{
-    width: 60px;
-    height: 60px;
-    margin: 7px 14px;
+.navLogo img {
+  margin: 0px 50px;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    margin-right: 80px;
-    color: rgb(103,86,69);
-    text-decoration: none;
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  color: rgb(103, 86, 69);
+  text-decoration: none;
 }
 
-.featureIcons{
-    display: flex;
-    color: white;
-    margin-left: 40vw;
-    text-decoration: none;
+.featureIcons {
+  display: flex;
+  color: white;
+  margin-left: 40vw;
+  text-decoration: none;
 }
 
-.userIcon{
-    font-size: 24px;
+.userIcon {
+  font-size: 24px;
 }
