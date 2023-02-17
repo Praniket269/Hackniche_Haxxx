@@ -40,20 +40,7 @@ export default function FamilySupport() {
                   <li>Developing individual coping strategies</li>
                 </ul>
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                {/* <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg> */}
-              </a>
+            <button className="btn btn-outline-success items-center my-3"><a href="https://www.google.com/maps/search/therapists+in+mumbai/@19.0699688,72.8309766,14z/data=!3m1!4b1" target="_blank">Book a session</a></button>
             </div>
           </div>
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -65,20 +52,7 @@ export default function FamilySupport() {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                {/* <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg> */}
-              </a>
+              <button className="btn btn-outline-success items-center my-3"><a href="https://www.udemy.com/courses/search/?src=ukw&q=free+skill+development+" target="_blank">Browse a course</a></button>
             </div>
             <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
               {/* <svg
@@ -122,20 +96,7 @@ export default function FamilySupport() {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+              <button className="btn btn-outline-success items-center my-3"><a href="https://www.google.com/maps/search/schools+in+mumbai/@19.249346,72.8427233,14z/data=!3m1!4b1" target="_blank">Nearby schools</a></button>
             </div>
           </div>
           {/* <button class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">

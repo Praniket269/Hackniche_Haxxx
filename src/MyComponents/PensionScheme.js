@@ -95,7 +95,7 @@ export default function PensionScheme() {
             </div>
             <div class="p-2 sm:w-1/2 w-full h-28">
               <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -106,13 +106,13 @@ export default function PensionScheme() {
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
+                </svg> */}
                 <span class="title-font font-medium">Disability Pension</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full h-28">
               <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-                <svg
+                {/* <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -123,14 +123,11 @@ export default function PensionScheme() {
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
+                </svg> */}
                 <span class="title-font font-medium">War Injury Pension</span>
               </div>
             </div>
           </div>
-          {/* <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Button
-          </button> */}
         </div>
       </section>
       <section class="text-gray-600 body-font">
@@ -150,9 +147,12 @@ export default function PensionScheme() {
               in the Pension Regulations - 2008.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
+              <a
+                href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
               {/* <a class="text-indigo-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
@@ -187,9 +187,12 @@ export default function PensionScheme() {
               JCOs/OR.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
+              <a
+                href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
               {/* <a class="text-indigo-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
@@ -235,9 +238,12 @@ export default function PensionScheme() {
               alive, whichever is earlier.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
+              <a
+                href="https://defencepension.gov.in/index.php?mmenu=info&do=-56"
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
               {/* <a class="text-indigo-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
@@ -276,23 +282,12 @@ export default function PensionScheme() {
               (notified in the PPO) is the crucial date.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a> */}
+              <a
+                href="https://defencepension.gov.in/index.php?mmenu=info&do=-47#:~:text=Commutation%20of%20Pension,submitted%20through%20pension%20disbursing%20authority.20reduced%20proportionally."
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
             </div>
           </div>
         </div>
@@ -317,9 +312,12 @@ export default function PensionScheme() {
               disablement is assessed at 20% or more.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
+              <a
+                href="https://defencepension.gov.in/index.php?mmenu=info&do=-15#:~:text=Disability%20Element%20for%20100%25%20disability,it%20shall%20be%20reduced%20proportionally."
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
               {/* <a class="text-indigo-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
@@ -355,9 +353,12 @@ export default function PensionScheme() {
               disablement, War Injury Element shall be proportionately reduced.
             </p>
             <div class="flex md:mt-4 mt-6 ml-96">
-              <button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">
-                Apply
-              </button>
+              <a
+                href="https://defencepension.gov.in/index.php?mmenu=info&do=-55"
+                target="_parent"
+              >
+                <button className="btn btn-outline-success">Apply</button>
+              </a>
               {/* <a class="text-indigo-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
