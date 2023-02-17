@@ -9,11 +9,11 @@ export const NewNav = () => {
         <div className= "navLogo"><img src={navlogo} alt="" /></div>
         <div className="featureIcons">
             <a className= "icons" href="/jobs">Jobs</a>
-            <a className= "icons" href="/education">Education</a>
+            <a className= "icons" href="/education">Family Support</a>
             <a className= "icons" href="/pension">Pension</a>
             <a className= "icons" href="/com">Community</a>
             <a className= "icons" href="/schemes">Schemes</a>
-            <a className= "icons" href="/schemes">PTSD Relief </a>
+            <a className= "icons" href="/schemes">Helpline</a>
         </div>
     </div>
     </>

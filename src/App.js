@@ -47,7 +47,9 @@ function App() {
         </div>
       </div>
     </Router> */}
-    <NovelFeature/>
+    <NewNav/>
+    {/* <PensionScheme/> */}
+    <FamilySupport/>
     </>
   );
 }
