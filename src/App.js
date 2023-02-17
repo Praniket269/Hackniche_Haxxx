@@ -1,11 +1,13 @@
 import './App.css';
 import {MainPage} from './MyComponents/LandingPage/MainPage'
+import {NewNav} from './MyComponents/HomePage/NewNav';
 
 
 function App() {
   return (
     <>
-      <MainPage/>
+    <NewNav/>
+      {/* <MainPage/> */}
     </>
   );
 }
