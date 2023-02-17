@@ -44,15 +44,7 @@
     /* position: absolute; */
 }
 
-.navbar{
-    position: relative;
-    right: 20px;
-    align-self: right;
-}
-
 .mainHead img{
-    width: 60px;
-    height: 60px;
     margin: 7px 15px;
     /* opacity: 0.75; */
 }

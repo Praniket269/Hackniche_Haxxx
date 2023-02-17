@@ -1,5 +1,6 @@
 import JobCard from "./JobCard";
 import { useState } from "react";
+import { NewNav } from "./NewNav";
 
 export default function JobPage() {
   const [active1, setActive1] = useState("");
@@ -49,60 +50,63 @@ export default function JobPage() {
   }
 
   return (
-    <div className="container">
-      <ul className="nav nav-pills nav-justified my-2">
-        <li className="nav-item">
-          <a
-            className={`nav-link ${active1}`}
-            onClick={change1}
-            aria-current="page"
-            href="#"
-          >
-            Technology
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${active2}`}
-            onClick={change2}
-            aria-current="page"
-            href="#"
-          >
-            Sales
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${active3}`}
-            onClick={change3}
-            aria-current="page"
-            href="#"
-          >
-            Marketing
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${active4}`}
-            onClick={change4}
-            aria-current="page"
-            href="#"
-          >
-            Business administration
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${active5}`}
-            onClick={change5}
-            aria-current="page"
-            href="#"
-          >
-            Nursing
-          </a>
-        </li>
-      </ul>
-      <JobCard />
+    <div>
+      <NewNav />
+      <div className="container">
+        <ul className="nav nav-pills nav-justified my-2">
+          <li className="nav-item">
+            <a
+              className={`nav-link ${active1}`}
+              onClick={change1}
+              aria-current="page"
+              href="#"
+            >
+              Technology
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={`nav-link ${active2}`}
+              onClick={change2}
+              aria-current="page"
+              href="#"
+            >
+              Sales
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={`nav-link ${active3}`}
+              onClick={change3}
+              aria-current="page"
+              href="#"
+            >
+              Marketing
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={`nav-link ${active4}`}
+              onClick={change4}
+              aria-current="page"
+              href="#"
+            >
+              Business administration
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={`nav-link ${active5}`}
+              onClick={change5}
+              aria-current="page"
+              href="#"
+            >
+              Nursing
+            </a>
+          </li>
+        </ul>
+        <JobCard />
+      </div>
     </div>
   );
 }

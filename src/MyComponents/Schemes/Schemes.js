@@ -1,9 +1,11 @@
 import MultiActionAreaCard from "./Blogs";
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
+import { NewNav } from "../HomePage/NewNav";
 
 export default function Schemes() {
   return (
     <div>
+      <NewNav />
       <div>
         <div className="row mx-0">
           <div className="col-md-6">
@@ -12,7 +14,7 @@ export default function Schemes() {
               <h6> Asked by Major Navjot Singh </h6>
               <div className="row">
                 <div className="col-2">
-                    <ArrowDropUpIcon style={{ fontSize: '50px' }} />
+                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
                 </div>
                 <div className="col-10">
                   <div className="container bg-light p-2">
@@ -24,7 +26,7 @@ export default function Schemes() {
                   </div>
                 </div>
                 <div className="col-2">
-                    <ArrowDropUpIcon style={{ fontSize: '50px' }} />
+                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
                 </div>
                 <div className="col-10 my-2">
                   <div className="container bg-light p-2">
@@ -36,7 +38,7 @@ export default function Schemes() {
                   </div>
                 </div>
                 <div className="col-2 my-2">
-                    <ArrowDropUpIcon style={{ fontSize: '50px' }} />
+                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
                 </div>
                 <div className="col-10">
                   <div className="container bg-light p-2">
@@ -48,7 +50,7 @@ export default function Schemes() {
                   </div>
                 </div>
                 <div className="col-2">
-                    <ArrowDropUpIcon style={{ fontSize: '50px' }} />
+                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
                 </div>
                 <div className="col-10 my-2">
                   <div className="container bg-light p-2">
