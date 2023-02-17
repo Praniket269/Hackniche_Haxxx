@@ -1,7 +1,11 @@
 import React from 'react'
+import './PersNavbar.css'
 
-export const PersNavar = () => {
+export const PersNavbar = () => {
   return (
-    <div>PersNavar</div>
+    <div className= "mynavbar d-flex flex-row">
+      <div className="logodiv"></div>
+      <div className="mynavicons"></div>
+    </div>
   )
 }
