@@ -15,17 +15,18 @@ function App() {
     <Router>
       <div className="App">
         <NewNav />
-        <PensionScheme />
+        <PensionScheme/>
+        {/* <FamilySupport /> */}
         {/* <MainPage/> */}
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav ml-auto">
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <Link className="nav-link" to='/login'>
                     Login
                   </Link>
-                </li> */}
+                </li>
                 <li className="nav-item">
                   <Link className="nav-link" to={"/sign-up"}>
                     Sign up
@@ -42,7 +43,7 @@ function App() {
               <Route path="/sign-up" element={<Signup />} />
             </Routes>
           </div>
-        </div>
+        </div> */}
       </div>
     </Router>
   );

@@ -43,20 +43,8 @@ export default function FamilySupport() {
                 </ul>
                 
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                {/* <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg> */}
-              </a>
+              <button type="button" class="btn btn-outline-success my-2">Set up a meet</button>    
+              
             </div>
           </div>
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
@@ -65,12 +53,21 @@ export default function FamilySupport() {
                 Skill Development Course
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              <ul>
+                    <li>
+                        Skill development improves employee productivity and efficiency
+                    </li>
+                    <li>
+                    Skill-based learning helps students develop problem-solving strategies and effective communication techniques.
+                    </li>
+                    <li>
+                    It builds confidence in them to participate in collaborative ventures.
+                    </li>
+                </ul>
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
+              {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
-                {/* <svg
+                <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -80,8 +77,9 @@ export default function FamilySupport() {
                   viewBox="0 0 24 24"
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg> */}
-              </a>
+                </svg>
+              </a> */}
+              <button type="button" class="btn btn-outline-success my-2">Browse a course</button>   
             </div>
             <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
               {/* <svg
@@ -125,7 +123,7 @@ export default function FamilySupport() {
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
+              {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -138,7 +136,8 @@ export default function FamilySupport() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
+              <button type="button" class="btn btn-outline-success my-2">Suggest nearby schools</button>   
             </div>
             
           </div>
