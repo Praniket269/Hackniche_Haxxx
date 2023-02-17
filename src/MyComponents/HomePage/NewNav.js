@@ -13,7 +13,7 @@ export const NewNav = () => {
             <a className= "icons" href="/pension">Pension</a>
             <a className= "icons" href="/com">Community</a>
             <a className= "icons" href="/schemes">Schemes</a>
-            <a className= "icons" href="/schemes">PTSD Relief</a>
+            <a className= "icons" href="/schemes">PTSD Relief </a>
         </div>
     </div>
     </>
