@@ -1,7 +1,6 @@
 import React from 'react'
 import './MainPage.css'
-import logo from './logo.png'
-import header from './header.jpg'
+import logo from '../Assets/logo.png'
 
 export const MainPage = () => {
   return (
