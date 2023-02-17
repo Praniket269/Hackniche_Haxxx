@@ -6,8 +6,9 @@
 /* HEADER */
 .mainHead{
     /* background-color: orange; */
-    background-image: url("bg1.jpg");
+    background-image: url("../Assets/bg1.jpg");
     background-repeat: no-repeat;
+    /* background-color: black; */
     background-size: cover;
     height: 100vh;
     /* display: flex;

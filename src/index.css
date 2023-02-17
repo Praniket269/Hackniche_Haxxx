@@ -21,7 +21,6 @@ code {
 }
 
 body {
-  background: #f1e6ce !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
