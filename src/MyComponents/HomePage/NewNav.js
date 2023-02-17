@@ -10,10 +10,9 @@ export const NewNav = () => {
         <div className="featureIcons">
             <a className= "icons" href="/jobs">Jobs</a>
             <a className= "icons" href="/education">Education</a>
-            <a className= "icons" href="">Pension</a>
-            <a className= "icons" href="">Community</a>
-            <a className= "icons" href="">Schemes</a>
-            <a className= "icons" href="">&#xf2bd;</a>
+            <a className= "icons" href="/pension">Pension</a>
+            <a className= "icons" href="/com">Community</a>
+            <a className= "icons" href="/schemes">Schemes</a>
         </div>
     </div>
     </>
