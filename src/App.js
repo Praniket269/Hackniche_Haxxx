@@ -30,8 +30,8 @@ function App() {
             </div>
           </div>
         </nav> */}
-        <NewNav />
         <div>
+          <NewNav />
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/sign-up" element={<Signup />} />
@@ -39,7 +39,7 @@ function App() {
             <Route path="/jobs" element={<JobPage />} />
             <Route path="/schemes" element={<Community />} />
             <Route path="/com" element={<Schemes />} />
-            <Route path="/family" element={<FamilySupport />} />
+            <Route path="/education" element={<FamilySupport />} />
             <Route path="/pension" element={<PensionScheme />} />
           </Routes>
         </div>

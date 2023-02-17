@@ -21,8 +21,7 @@ export const MainPage = () => {
         </div>
       </div>
       <div className="headerContent">
-        <h1>Lorem ipsum dolor</h1>
-        <br></br>
+        <h2>Lorem ipsum dolor</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
           dignissimos sunt architecto necessitatibus cum deleniti tenetur
