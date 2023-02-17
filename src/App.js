@@ -8,14 +8,16 @@ import "./App.css";
 import { NewNav } from "./MyComponents/HomePage/NewNav";
 import FamilySupport from "./MyComponents/FamilySupport";
 import PensionScheme from "./MyComponents/PensionScheme";
+import Jobs from "./MyComponents/Jobs";
 import { MainPage } from "./MyComponents/LandingPage/MainPage";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NewNav />
-        <PensionScheme/>
+    <>
+      <NewNav/>
+      <Jobs/>
+
+        {/* <PensionScheme/> */}
         {/* <FamilySupport /> */}
         {/* <MainPage/> */}
         {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top">
@@ -44,8 +46,7 @@ function App() {
             </Routes>
           </div>
         </div> */}
-      </div>
-    </Router>
+    </>
   );
 }
 
