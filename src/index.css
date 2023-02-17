@@ -21,6 +21,7 @@ code {
 }
 
 body {
+  background: #f1e6ce !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -76,4 +77,12 @@ body, html, .App, #root, .auth-wrapper {
 }
 .forgot-password a {
   color: #167bff;
+}
+
+.inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded{
+  top:11%;
+  left:100%;
+  width:100px;
+  height:40px;
+  position: absolute;
 }
