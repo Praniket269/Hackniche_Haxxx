@@ -4,10 +4,16 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './MyComponents/Login';
 import Signup from './MyComponents/Signup';
+import './App.css';
+import { MainPage } from './MyComponents/LandingPage/MainPage'
+import { NewNav } from './MyComponents/HomePage/NewNav';
+
 function App() {
   return (
     <Router>
       <div className="App">
+        <NewNav />
+        {/* <MainPage/> */}
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -38,4 +44,5 @@ function App() {
     </Router>
   )
 }
-export default App
+
+export default App;
