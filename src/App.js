@@ -10,7 +10,7 @@ import Community from "./MyComponents/Community/Community";
 import Schemes from "./MyComponents/Schemes/Schemes";
 import React from "react";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import FamilySupport from "./MyComponents/FamilySupport";
+import FamilySupport from "./MyComponents/FamilySupport/FamilySupport.js";
 import PensionScheme from "./MyComponents/PensionScheme";
 
 function App() {

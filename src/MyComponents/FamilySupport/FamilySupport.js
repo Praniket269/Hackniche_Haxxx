@@ -1,9 +1,9 @@
 import React from "react";
 import "./FamilySupport.css";
-import famsupp from './famsupp.jpg'
-import therapy from './therapy.jpg'
-import skilldev from './skilldev.jpg'
-import education from './education.jpg'
+import famsupp from "../Assets/famsupp.jpg";
+import therapy from "../Assets/therapy.jpg";
+import skilldev from "../Assets/skilldev.jpg";
+import education from "../Assets/education.jpg";
 
 export default function FamilySupport() {
   return (
@@ -23,7 +23,7 @@ export default function FamilySupport() {
               >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
               </svg> */}
-            <img className="rounded-full h-40 w-40" src={therapy} alt="" />
+              <img className="rounded-full h-40 w-40" src={therapy} alt="" />
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
@@ -31,17 +31,13 @@ export default function FamilySupport() {
               </h2>
               <p class="leading-relaxed text-base">
                 <ul>
-                    <li>
-                        Evaluate and treat mental and emotional disorders
-                    </li>
-                    <li>
-                       Providing help treating mental health concerns that impact the family unit
-                    </li>
-                    <li>
-                        Developing individual coping strategies
-                    </li>
+                  <li>Evaluate and treat mental and emotional disorders</li>
+                  <li>
+                    Providing help treating mental health concerns that impact
+                    the family unit
+                  </li>
+                  <li>Developing individual coping strategies</li>
                 </ul>
-                
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -114,7 +110,7 @@ export default function FamilySupport() {
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
               </svg> */}
-            <img className="rounded-full h-40 w-40" src={education} alt="" />
+              <img className="rounded-full h-40 w-40" src={education} alt="" />
             </div>
 
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -140,7 +136,6 @@ export default function FamilySupport() {
                 </svg>
               </a>
             </div>
-            
           </div>
           {/* <button class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Button

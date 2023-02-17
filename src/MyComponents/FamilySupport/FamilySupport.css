@@ -4,7 +4,7 @@
 }
 
 .mainbg{
-    background-image: url('famsupp.jpg');
+    background-image: url('../Assets/famsupp.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 88vh;
