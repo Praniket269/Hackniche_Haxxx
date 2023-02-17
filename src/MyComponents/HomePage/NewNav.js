@@ -13,7 +13,7 @@ export const NewNav = () => {
             <a className= "icons" href="">Pension</a>
             <a className= "icons" href="">Community</a>
             <a className= "icons" href="">Schemes</a>
-            <a className= "icons" href="">&#xf2bd;</a>
+            <i className= "icons far fa-user-circle" href=""></i>
         </div>
     </div>
     </>
