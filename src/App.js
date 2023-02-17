@@ -8,6 +8,10 @@ import Login from "./MyComponents/Login";
 import Signup from "./MyComponents/Signup";
 import Community from "./MyComponents/Community/Community";
 import Schemes from "./MyComponents/Schemes/Schemes";
+import React from "react";
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import FamilySupport from "./MyComponents/FamilySupport";
+import PensionScheme from "./MyComponents/PensionScheme";
 
 function App() {
   return (
@@ -35,6 +39,8 @@ function App() {
             <Route path="/jobs" element={<JobPage />} />
             <Route path="/schemes" element={<Community />} />
             <Route path="/com" element={<Schemes />} />
+            <Route path="/family" element={<FamilySupport />} />
+            <Route path="/pension" element={<PensionScheme />} />
           </Routes>
         </div>
       </div>

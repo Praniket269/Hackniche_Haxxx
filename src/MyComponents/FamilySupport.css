@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbg{
+    background-image: url('famsupp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+}
