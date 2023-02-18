@@ -4,7 +4,7 @@
 }
 
 .mynav {
-  height: 12vh;
+  height: 14vh;
   background-image: linear-gradient(to bottom right, #4d784e 0%, #e1d798 100%);
   display: flex;
   flex-direction: row;

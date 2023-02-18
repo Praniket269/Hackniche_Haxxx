@@ -1,46 +1,39 @@
 import React from "react";
+import { useNavigate } from "react-router";
+import soldier from "./Assets/soldier.png";
+
 export default function Login() {
+  const navigate = useNavigate();
+
+  const redirect = (e) => {
+    e.preventDefault();
+    navigate("/jobs");
+  };
+
   return (
-    <div className="auth-wrapper">
-      <div className="auth-inner">
-        <form>
-          <h3>Sign In</h3>
+    <div className="container mt-5">
+      <h2 className="text-center"> Login </h2>
+      <div className="m-16" style={{ marginLeft: "720px" }}>
+        <img src={soldier} alt="soldier" />
+      </div>
+      <div className="container w-50">
+        <form onSubmit={redirect}>
           <div className="mb-3">
-            <label>Email address</label>
+            <label>Jawaan ID</label>
             <input
-              type="email"
               className="form-control"
-              placeholder="Enter email"
+              placeholder="Enter soldier Jawaan ID"
             />
           </div>
-          <div className="mb-3">
-            <label>Password</label>
-            <input
-              type="password"
-              className="form-control"
-              placeholder="Enter password"
-            />
-          </div>
-          <div className="mb-3">
-            <div className="custom-control custom-checkbox">
-              <input
-                type="checkbox"
-                className="custom-control-input"
-                id="customCheck1"
-              />
-              <label className="custom-control-label" htmlFor="customCheck1">
-                Remember me
-              </label>
-            </div>
-          </div>
-          <div className="d-grid">
-            <button type="submit" className="btn btn-primary">
+          <div>
+            <button
+              type="submit"
+              className="btn btn-outline-primary"
+              // style={{ color: "blue", "&:hover": { color: "white" } }}
+            >
               Submit
             </button>
           </div>
-          <p className="forgot-password text-right">
-            Forgot <a href="#">password?</a>
-          </p>
         </form>
       </div>
     </div>

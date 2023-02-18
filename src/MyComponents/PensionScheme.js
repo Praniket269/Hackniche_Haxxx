@@ -95,7 +95,7 @@ export default function PensionScheme() {
             </div>
             <div class="p-2 sm:w-1/2 w-full h-28">
               <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-                {/* <svg
+                <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -106,13 +106,13 @@ export default function PensionScheme() {
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
-                </svg> */}
+                </svg>
                 <span class="title-font font-medium">Disability Pension</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full h-28">
               <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-                {/* <svg
+                <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -123,7 +123,7 @@ export default function PensionScheme() {
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
-                </svg> */}
+                </svg>
                 <span class="title-font font-medium">War Injury Pension</span>
               </div>
             </div>
