@@ -1,7 +1,21 @@
 import React from "react";
 import { NewNav } from "./HomePage/NewNav";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 export default function PensionScheme() {
+  const [active, setActive] = React.useState("none");
+
+  function search() {
+    var rank = document.getElementById("los").value;
+    console.log(rank);
+    if (rank != 5) {
+      setActive("none");
+    } else {
+      setActive("block");
+    }
+  }
+
   return (
     <>
       <NewNav />
@@ -130,30 +144,80 @@ export default function PensionScheme() {
           </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            Service Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6">
-            <p class="leading-relaxed text-base">
-              All type of pensions to defence personnel/their NOK are governed
-              by Pension Regulations for the Army (Part-I&II 2008). Service
-              pension is admissible to JCOs/OR on discharge from service after
-              completion of qualifying service of minimum 15 years in accordance
-              with Pension Regulations for the Army 2008. Shortfall of service
-              in a particular rank or otherwise to become eligible for service
-              pension in deserving cases may be condoned to the extent laid down
-              in the Pension Regulations - 2008.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
-              {/* <a class="text-green-500 inline-flex items-center ml-4">
+      <section class="text-gray-600 body-font pb-5">
+        <div className="d-flex justify-content-start">
+          <Box
+            sx={{
+              width: 300,
+              maxWidth: "100%",
+              paddingLeft: 2,
+              marginLeft: 35,
+            }}
+          >
+            <TextField fullWidth label="Rank" id="rank" />
+          </Box>
+          <Box
+            sx={{
+              width: 300,
+              maxWidth: "100%",
+              paddingLeft: 2,
+            }}
+          >
+            <TextField
+              fullWidth
+              label="Length of Service"
+              type="number"
+              id="los"
+            />
+          </Box>
+          <Box
+            sx={{
+              width: 300,
+              maxWidth: "100%",
+              paddingLeft: 2,
+            }}
+          >
+            <TextField
+              fullWidth
+              label="Retirement date"
+              type="date"
+              id="date"
+            />
+          </Box>
+          <button
+            className="btn btn-primary px-5 py-0 mx-5 bg-success"
+            onClick={search}
+          >
+            {" "}
+            Search{" "}
+          </button>
+        </div>
+      </section>
+      <div style={{ display: `${active}` }}>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              Service Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6">
+              <p class="leading-relaxed text-base">
+                All type of pensions to defence personnel/their NOK are governed
+                by Pension Regulations for the Army (Part-I&II 2008). Service
+                pension is admissible to JCOs/OR on discharge from service after
+                completion of qualifying service of minimum 15 years in
+                accordance with Pension Regulations for the Army 2008. Shortfall
+                of service in a particular rank or otherwise to become eligible
+                for service pension in deserving cases may be condoned to the
+                extent laid down in the Pension Regulations - 2008.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+                {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -167,33 +231,33 @@ export default function PensionScheme() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a> */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            Family Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6">
-            <p class="leading-relaxed text-base">
-              Family pension is normally granted after the death of the Armed
-              Forces personnel to their NOK viz wife or husband/parent/child
-              including widowed/divorced/unmarried daughter, where death of
-              service person is attributable to or aggravated to military
-              service, or not. The family pension is notified along with initial
-              Disability/Service Pension PPO commenced wef 01 Mar 1985 for
-              JCOs/OR.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
-              {/* <a class="text-green-500 inline-flex items-center ml-4">
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              Family Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6">
+              <p class="leading-relaxed text-base">
+                Family pension is normally granted after the death of the Armed
+                Forces personnel to their NOK viz wife or husband/parent/child
+                including widowed/divorced/unmarried daughter, where death of
+                service person is attributable to or aggravated to military
+                service, or not. The family pension is notified along with
+                initial Disability/Service Pension PPO commenced wef 01 Mar 1985
+                for JCOs/OR.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://indianarmy.nic.in/Site/FormTemplete/frmTempSimple.aspx?MnId=Dztd8MnBaWJvh4xV7E179g==&ParentID=rmhwfpNxUVy42kLfbrs5kQ=="
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+                {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -207,44 +271,44 @@ export default function PensionScheme() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a> */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            Ordinary Family Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6 text-center">
-            <p class="leading-relaxed text-base">
-              Ordinary Family Pension is entitled to NOKs of the deceased who
-              otherwise would have been entitled for grant of pension on their
-              release/retirement/discharge/invalidment from service. Rate of
-              Ordinary Family pension is as under :- (a) Normal Rate. The
-              ordinary family pension shall be calculated at a uniform rate of
-              30% of reckonable emoluments subject to a minimum of pension fixed
-              by the Government from time to time and a maximum of 30% of the
-              highest pay in the Armed Forces. Presently it is Rs 3,500/- per
-              month. (b) Enhanced Rate. Where Service personnel die while in
-              service after having rendered not less than 7 years continuous
-              qualifying service, or who die after
-              release/retirement/discharge/invalidment with a pension, ordinary
-              family pension shall be granted at an enhanced rate for a period
-              of 7 years from the date following the date of death of the
-              service personnel or up to the date on which the deceased would
-              have attained the age of 67 years (65 years in case 2 years
-              extension in service not allowed by Screening Board), had he been
-              alive, whichever is earlier.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://defencepension.gov.in/index.php?mmenu=info&do=-56"
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
-              {/* <a class="text-green-500 inline-flex items-center ml-4">
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              Ordinary Family Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6 text-center">
+              <p class="leading-relaxed text-base">
+                Ordinary Family Pension is entitled to NOKs of the deceased who
+                otherwise would have been entitled for grant of pension on their
+                release/retirement/discharge/invalidment from service. Rate of
+                Ordinary Family pension is as under :- (a) Normal Rate. The
+                ordinary family pension shall be calculated at a uniform rate of
+                30% of reckonable emoluments subject to a minimum of pension
+                fixed by the Government from time to time and a maximum of 30%
+                of the highest pay in the Armed Forces. Presently it is Rs
+                3,500/- per month. (b) Enhanced Rate. Where Service personnel
+                die while in service after having rendered not less than 7 years
+                continuous qualifying service, or who die after
+                release/retirement/discharge/invalidment with a pension,
+                ordinary family pension shall be granted at an enhanced rate for
+                a period of 7 years from the date following the date of death of
+                the service personnel or up to the date on which the deceased
+                would have attained the age of 67 years (65 years in case 2
+                years extension in service not allowed by Screening Board), had
+                he been alive, whichever is earlier.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://defencepension.gov.in/index.php?mmenu=info&do=-56"
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+                {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -258,67 +322,67 @@ export default function PensionScheme() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a> */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            Commutation of Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6">
-            <p class="leading-relaxed text-base">
-              Every JCO/OR is entitled for commutation of 50% of his retiring
-              pension, service pension including additional pension payable to
-              honorary rank, disability pension, war injury pension and invalid
-              pension. No commutation however, is entitled out of the
-              provisional pension. The commuted portion of pension will be
-              recovered for a period of 15 years from the month of payment of
-              capitalized value of pension. In case a pensioner dies after
-              receiving the CVP amount but before expiry of 15 years, the
-              balance amount shall not be recovered from the Life Time Arrears
-              (LTA) or Family Pension. The Absolute Date of Commutation
-              (notified in the PPO) is the crucial date.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://defencepension.gov.in/index.php?mmenu=info&do=-47#:~:text=Commutation%20of%20Pension,submitted%20through%20pension%20disbursing%20authority.20reduced%20proportionally."
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              Commutation of Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6">
+              <p class="leading-relaxed text-base">
+                Every JCO/OR is entitled for commutation of 50% of his retiring
+                pension, service pension including additional pension payable to
+                honorary rank, disability pension, war injury pension and
+                invalid pension. No commutation however, is entitled out of the
+                provisional pension. The commuted portion of pension will be
+                recovered for a period of 15 years from the month of payment of
+                capitalized value of pension. In case a pensioner dies after
+                receiving the CVP amount but before expiry of 15 years, the
+                balance amount shall not be recovered from the Life Time Arrears
+                (LTA) or Family Pension. The Absolute Date of Commutation
+                (notified in the PPO) is the crucial date.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://defencepension.gov.in/index.php?mmenu=info&do=-47#:~:text=Commutation%20of%20Pension,submitted%20through%20pension%20disbursing%20authority.20reduced%20proportionally."
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            Disability Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6">
-            <p class="leading-relaxed text-base">
-              Service personnel who are invalided out from service on account of
-              disability which is attributable to or aggravated by such service
-              may be granted disability pension consisting of service element
-              (SE) and disability element (DE) as under :- (a) Service Element
-              (SE). An individual who is invalided out of service with a
-              disability attributable to or aggravated by service but assessed
-              at below 20 percent shall be entitled to service element. (b)
-              Disability Element (DE). Disability Element will be granted if the
-              individual is invalided out of service on account of disability
-              which is attributable to or aggravated by military service and his
-              disablement is assessed at 20% or more.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://defencepension.gov.in/index.php?mmenu=info&do=-15#:~:text=Disability%20Element%20for%20100%25%20disability,it%20shall%20be%20reduced%20proportionally."
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
-              {/* <a class="text-green-500 inline-flex items-center ml-4">
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              Disability Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6">
+              <p class="leading-relaxed text-base">
+                Service personnel who are invalided out from service on account
+                of disability which is attributable to or aggravated by such
+                service may be granted disability pension consisting of service
+                element (SE) and disability element (DE) as under :- (a) Service
+                Element (SE). An individual who is invalided out of service with
+                a disability attributable to or aggravated by service but
+                assessed at below 20 percent shall be entitled to service
+                element. (b) Disability Element (DE). Disability Element will be
+                granted if the individual is invalided out of service on account
+                of disability which is attributable to or aggravated by military
+                service and his disablement is assessed at 20% or more.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://defencepension.gov.in/index.php?mmenu=info&do=-15#:~:text=Disability%20Element%20for%20100%25%20disability,it%20shall%20be%20reduced%20proportionally."
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+                {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -332,34 +396,35 @@ export default function PensionScheme() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a> */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-            War Injury Pension
-          </h2>
-          <div class="md:w-3/5 md:pl-6">
-            <p class="leading-relaxed text-base">
-              Service Element It is equal to service pension to which he/she
-              would have been entitled on the basis of his/her pay on the date
-              of invalidment i.e. 50% of last drawn. War Injury Element It will
-              be equal to reckonable emoluments last drawn for 100% disablement.
-              However, in no case the aggregate of Service Element and War
-              Injury Element should exceed the last pay drawn. However this cap
-              has been removed wef 01.07.2009. For lower percentage of
-              disablement, War Injury Element shall be proportionately reduced.
-            </p>
-            <div class="flex md:mt-4 mt-6 ml-96">
-              <a
-                href="https://defencepension.gov.in/index.php?mmenu=info&do=-55"
-                target="_parent"
-              >
-                <button className="btn btn-outline-success">Apply</button>
-              </a>
-              {/* <a class="text-green-500 inline-flex items-center ml-4">
+        </section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
+              War Injury Pension
+            </h2>
+            <div class="md:w-3/5 md:pl-6">
+              <p class="leading-relaxed text-base">
+                Service Element It is equal to service pension to which he/she
+                would have been entitled on the basis of his/her pay on the date
+                of invalidment i.e. 50% of last drawn. War Injury Element It
+                will be equal to reckonable emoluments last drawn for 100%
+                disablement. However, in no case the aggregate of Service
+                Element and War Injury Element should exceed the last pay drawn.
+                However this cap has been removed wef 01.07.2009. For lower
+                percentage of disablement, War Injury Element shall be
+                proportionately reduced.
+              </p>
+              <div class="flex md:mt-4 mt-6 ml-96">
+                <a
+                  href="https://defencepension.gov.in/index.php?mmenu=info&do=-55"
+                  target="_parent"
+                >
+                  <button className="btn btn-outline-success">Apply</button>
+                </a>
+                {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -373,10 +438,11 @@ export default function PensionScheme() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a> */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   );
 }
