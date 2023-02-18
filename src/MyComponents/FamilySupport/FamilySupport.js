@@ -1,13 +1,14 @@
 import React from "react";
 import "./FamilySupport.css";
-import famsupp from "../Assets/famsupp.jpg";
 import therapy from "../Assets/therapy.jpg";
 import skilldev from "../Assets/skilldev.jpg";
 import education from "../Assets/education.jpg";
+import { NewNav } from "../HomePage/NewNav";
 
 export default function FamilySupport() {
   return (
     <>
+      <NewNav />
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">

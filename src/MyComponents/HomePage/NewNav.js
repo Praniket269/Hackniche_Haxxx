@@ -6,14 +6,14 @@ export const NewNav = () => {
   return (
     <>
     <div className="mynav">
-        <div className= "navLogo"><img src={navlogo} alt="" /></div>
+        <div className= "navLogo my-2"><img src={navlogo} alt="logo" /></div>
         <div className="featureIcons">
             <a className= "icons" href="/jobs">Jobs</a>
-            <a className= "icons" href="/education">Family Support</a>
+            <a className= "icons" href="/education">Family</a>
             <a className= "icons" href="/pension">Pension</a>
             <a className= "icons" href="/com">Community</a>
             <a className= "icons" href="/schemes">Schemes</a>
-            <a className= "icons" href="/schemes">Helpline</a>
+            <a className= "icons" href="/novel">Helpline </a>
         </div>
     </div>
     </>
