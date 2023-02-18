@@ -19,6 +19,7 @@ export default function Schemes() {
                 <div className="col-2">
                   <ArrowDropUpIcon style={{ fontSize: "50px" }} />
                 </div>
+                
                 <div className="col-10">
                   <div className="container bg-light p-2">
                     I'm trying to center the newsslider (in the div
@@ -27,6 +28,7 @@ export default function Schemes() {
                     already have text-align: center; Still it does not work. Any
                     suggestions?
                   </div>
+                
                 </div>
                 <div className="col-2">
                   <ArrowDropUpIcon style={{ fontSize: "50px" }} />
