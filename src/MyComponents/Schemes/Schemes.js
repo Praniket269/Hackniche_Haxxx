@@ -12,9 +12,10 @@ export default function Schemes() {
             <div className="container text-end">
               <h3 className="my-4 text-3xl text-end pt-8">
                 {" "}
-                How do I center a div?{" "}
+                  {" "}
               </h3>
-              <h6> Asked by Major Navjot Singh | 2023-03-04 </h6>
+              <h6> How are the career opportunities for Army Officer ? </h6>
+              <br/>
               <div className="row">
                 <div className="col-2">
                   <ArrowDropUpIcon style={{ fontSize: "50px" }} />
@@ -22,11 +23,7 @@ export default function Schemes() {
                 
                 <div className="col-10">
                   <div className="container bg-light p-2">
-                    I'm trying to center the newsslider (in the div
-                    bottom-container) on this page:
-                    http://www.luukratief-design.nl/dump/parallax/index.html I
-                    already have text-align: center; Still it does not work. Any
-                    suggestions?
+                  An army officer has very good carrier opportunity. the focus should be on the army skills and good knowledge.
                   </div>
                 
                 </div>
@@ -35,37 +32,22 @@ export default function Schemes() {
                 </div>
                 <div className="col-10 my-2">
                   <div className="container bg-light p-2">
-                    I'm trying to center the newsslider (in the div
-                    bottom-container) on this page:
-                    http://www.luukratief-design.nl/dump/parallax/index.html I
-                    already have text-align: center; Still it does not work. Any
-                    suggestions?
+                  There are a lot of career opportunities for Army Officer talent. The focus should be on Army Officer skills and good theoretical knowledge. You can look for Army Officer jobs at http://www.cos.youth4work.com/jobs/full_time_jobs-in-world-for-Army-Officer.The average salaries for Army Officer where the min. being somewhere in the range of 2 and maximum 3 when all fresher job in Army Officer are identified over the past 2 years.
+
+Good luck!
                   </div>
+
+                
                 </div>
-                <div className="col-2 my-2">
-                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
-                </div>
-                <div className="col-10">
-                  <div className="container bg-light p-2">
-                    I'm trying to center the newsslider (in the div
-                    bottom-container) on this page:
-                    http://www.luukratief-design.nl/dump/parallax/index.html I
-                    already have text-align: center; Still it does not work. Any
-                    suggestions?
-                  </div>
-                </div>
-                <div className="col-2">
-                  <ArrowDropUpIcon style={{ fontSize: "50px" }} />
-                </div>
-                <div className="col-10 my-2">
-                  <div className="container bg-light p-2">
-                    I'm trying to center the newsslider (in the div
-                    bottom-container) on this page:
-                    http://www.luukratief-design.nl/dump/parallax/index.html I
-                    already have text-align: center; Still it does not work. Any
-                    suggestions?
-                  </div>
-                </div>
+                <br/>
+                
+
+                
+                
+                
+                
+                
+
               </div>
             </div>
           </div>

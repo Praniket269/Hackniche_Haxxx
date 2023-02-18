@@ -49,8 +49,8 @@ export default function FamilySupport() {
                 Skill Development Course
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+              The skill development process helps students think beyond grades. It helps them tap into their capabilities, develop real-life skills, and prepare themselves to be successful in the careers of their choice.
+              Skill-based learning helps students develop problem-solving strategies and effective communication techniques.
               </p>
               <button className="btn btn-outline-success items-center my-3"><a href="https://www.udemy.com/courses/search/?src=ukw&q=free+skill+development+" target="_blank">Browse a course</a></button>
             </div>
@@ -93,8 +93,10 @@ export default function FamilySupport() {
                 Education for children
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Teaches Team Work And Discipline
+                Builds confidence, Develops Concentration
+                Social Strength Of The Nation
+
               </p>
               <button className="btn btn-outline-success items-center my-3"><a href="https://www.google.com/maps/search/schools+in+mumbai/@19.249346,72.8427233,14z/data=!3m1!4b1" target="_blank">Nearby schools</a></button>
             </div>
