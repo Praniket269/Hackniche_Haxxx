@@ -7,15 +7,21 @@ export default function Community() {
       <NewNav />
       <div className="row px-0 mx-0">
         <div className="col-3 px-0">
-          <ul className="list-group my-2">
-            {[1, 2, 3].map((item) => (
-              <li key={item} className="list-group-item my-2">
-                Scheme {item}
-              </li>
-            ))}
-          </ul>
+          <ol type="1" className="list-group_my-2">
+            <div>
+                <button className="btn btn-outline-success"><a href="https://www.desw.gov.in/prime-ministers-scholarship-scheme-pmss#:~:text=The%20Scheme%20was%20introduced%20in,month%20and%20is%20paid%20annually.">Prime Ministers scholarship scheme</a></button>
+            </div>
+            <br />
+            <div>
+                <button className="btn btn-outline-success"><a href="https://www.desw.gov.in/Self-Employment-Schemes-DGR">Self Employment options</a> </button>   
+            </div>
+            <br />
+            <div>
+                <button className="btn btn-outline-success"><a href="https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1898821">Financial Assistance to institutions</a> </button> 
+            </div>
+          </ol>
           <div>
-            <p> FAQs </p>
+            <h2> FAQs </h2>
             <Faq />
           </div>
         </div>

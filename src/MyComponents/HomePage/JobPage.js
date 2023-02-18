@@ -56,7 +56,7 @@ export default function JobPage() {
         <ul className="nav nav-pills nav-justified my-2">
           <li className="nav-item">
             <a
-              className={`nav-link ${active1}`}
+              className={`nav-link ${active1} bg-success text-white`}
               onClick={change1}
               aria-current="page"
               href="#"

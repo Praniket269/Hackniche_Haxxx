@@ -6,7 +6,7 @@ export const NewNav = () => {
   return (
     <>
     <div className="mynav">
-        <div className= "navLogo"><img src={navlogo} alt="logo" /></div>
+        <div className= "navLogo my-2"><img src={navlogo} alt="logo" /></div>
         <div className="featureIcons">
             <a className= "icons" href="/jobs">Jobs</a>
             <a className= "icons" href="/education">Family</a>

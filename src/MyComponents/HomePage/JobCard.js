@@ -2,9 +2,9 @@ export default function JobCard() {
   return (
     <div>
       <div className="row px-3">
-        <div className="card col mx-2">
+        <div className="card col mx-2 my-2">
           <div className="card-body">
-            <h5 className="card-title">Chief Security Officer</h5>
+            <h3 className="card-title">Chief Security Officer</h3>
             <h6 className="card-subtitle mb-2 text-muted">Serving Skill</h6>
             <p className="card-text">
               Having clear ability to deliver high-quality, cost-effective IT
@@ -12,24 +12,24 @@ export default function JobCard() {
               organization
             </p>
             <p>
-              <span className="badge rounded-pill bg-primary mx-1">Army</span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">Army</span>
+              <span className="badge rounded-pill bg-success mx-2">
                 Automation
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 Vigilance
               </span>
             </p>
             <div className="my-2">
-              <button type="button" className="btn btn-secondary text-black">
+              <button type="button" className="btn btn-outline-success my-2">
                 Apply
               </button>
             </div>
           </div>
         </div>
-        <div className="card col mx-2">
+        <div className="card col mx-2 my-2">
           <div className="card-body">
-            <h5 className="card-title">Chief Information Security Officer</h5>
+            <h3 className="card-title">Chief Information Security Officer</h3>
             <h6 className="card-subtitle mb-2 text-muted">
               Metropolitan Stock Exchange
             </h6>
@@ -39,26 +39,26 @@ export default function JobCard() {
               security program.
             </p>
             <p>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 IT Security
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 Framework
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">RMC</span>
+              <span className="badge rounded-pill bg-success mx-2">RMC</span>
             </p>
             <div className="my-2">
-              <button type="button" className="btn btn-secondary text-black">
+              <button type="button" className="btn btn-outline-success my-2">
                 Apply
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="row px-3 my-2">
-        <div className="card col mx-2">
+      <div className="row my-2 mx-2">
+        <div className="card col mx-2 my-2">
           <div className="card-body">
-            <h5 className="card-title">Chief Security Officer</h5>
+            <h3 className="card-title">Chief Security Officer</h3>
             <h6 className="card-subtitle mb-2 text-muted">Serving Skill</h6>
             <p className="card-text">
               Having clear ability to deliver high-quality, cost-effective IT
@@ -66,24 +66,24 @@ export default function JobCard() {
               organization
             </p>
             <p>
-              <span className="badge rounded-pill bg-primary mx-1">Army</span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">Army</span>
+              <span className="badge rounded-pill bg-success mx-2">
                 Automation
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 Vigilance
               </span>
             </p>
             <div className="my-2">
-              <button type="button" className="btn btn-secondary text-black">
+              <button type="button" className="btn btn-outline-success my-2">
                 Apply
               </button>
             </div>
           </div>
         </div>
-        <div className="card col mx-2">
+        <div className="card col mx-2 my-2">
           <div className="card-body">
-            <h5 className="card-title">Chief Information Security Officer</h5>
+            <h3 className="card-title">Chief Information Security Officer</h3>
             <h6 className="card-subtitle mb-2 text-muted">
               Metropolitan Stock Exchange
             </h6>
@@ -95,16 +95,16 @@ export default function JobCard() {
               ISO/IEC 27001.
             </p>
             <p>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 IT Security
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">
+              <span className="badge rounded-pill bg-success mx-2">
                 Framework
               </span>
-              <span className="badge rounded-pill bg-primary mx-1">RMC</span>
+              <span className="badge rounded-pill bg-success mx-2">RMC</span>
             </p>
             <div className="my-2">
-              <button type="button" className="btn btn-secondary text-black">
+              <button type="button" className="btn btn-outline-success my-2">
                 Apply
               </button>
             </div>
