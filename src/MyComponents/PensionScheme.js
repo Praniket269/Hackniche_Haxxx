@@ -29,7 +29,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -46,7 +46,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -63,7 +63,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -82,7 +82,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -101,7 +101,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -118,7 +118,7 @@ export default function PensionScheme() {
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="3"
-                  class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                  class="text-green-500 w-6 h-6 flex-shrink-0 mr-4"
                   viewBox="0 0 24 24"
                 >
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -153,7 +153,7 @@ export default function PensionScheme() {
               >
                 <button className="btn btn-outline-success">Apply</button>
               </a>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
+              {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -193,7 +193,7 @@ export default function PensionScheme() {
               >
                 <button className="btn btn-outline-success">Apply</button>
               </a>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
+              {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -244,7 +244,7 @@ export default function PensionScheme() {
               >
                 <button className="btn btn-outline-success">Apply</button>
               </a>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
+              {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -318,7 +318,7 @@ export default function PensionScheme() {
               >
                 <button className="btn btn-outline-success">Apply</button>
               </a>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
+              {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
@@ -359,7 +359,7 @@ export default function PensionScheme() {
               >
                 <button className="btn btn-outline-success">Apply</button>
               </a>
-              {/* <a class="text-indigo-500 inline-flex items-center ml-4">
+              {/* <a class="text-green-500 inline-flex items-center ml-4">
                 Learn More
                 <svg
                   fill="none"
