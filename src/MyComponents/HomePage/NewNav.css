@@ -5,7 +5,7 @@
 
 .mynav {
   height: 12vh;
-  background-image: linear-gradient(to bottom right, #4d784e 0%, #e1d798 100%);
+  background-color: rgb(255, 203, 107);
   display: flex;
   flex-direction: row;
   font-family: "Roboto Mono", monospace;
@@ -14,6 +14,8 @@
 
 .navLogo img {
   margin: 0px 50px;
+  height: 90px;
+  width: 190px;
 }
 
 .icons{
