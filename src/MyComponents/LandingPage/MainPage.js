@@ -8,24 +8,30 @@ export const MainPage = () => {
       <div className="mainHead">
         <div className="head">
           <img width="15%" src={logo} alt="logo" />
-          <ul>
+          <ul className="mx-10">
             <li>
               <a href="#"> Home</a>
             </li>
             <li>
-              <a href="#about"> About </a>
+              <a href="#about"> About Us</a>
             </li>
             <li>
-              <a href="#contact"> Contact Us </a>
+              <a href="/contactus"> Contact Us </a>
             </li>
             <li>
               <a href="/login"> Login </a>
             </li>
           </ul>
         </div>
+        <div className="slogan">
+          <h1>सेवा अस्मकम् धर्म</h1>
+        </div>
+        <div className="mainText">
+          <p>Aiding the lives of our brave servicemen in return to their selfless service towards us and our nation...</p>
+        </div>
       </div>
 
-      <footer id="contact">
+      {/* <footer id="contact">
         <div className="footerContent">
           <div className="icons">
             <i className="fa-brands fa-instagram fa-2xl"></i>
@@ -50,6 +56,7 @@ export const MainPage = () => {
           </div>
         </div>
       </footer>
+    </> */}
     </>
   );
 };

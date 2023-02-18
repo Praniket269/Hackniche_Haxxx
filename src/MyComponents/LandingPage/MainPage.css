@@ -6,8 +6,9 @@
 /* HEADER */
 .mainHead{
     /* background-color: orange; */
-    background-image: url("../Assets/bg1.jpg");
+    background-image: url("mainbg.jpg");
     background-repeat: no-repeat;
+    color: rgb(44, 44, 255);
     /* background-color: black; */
     background-size: cover;
     height: 100vh;
@@ -16,7 +17,7 @@
     align-items:flex-start; */
     position: sticky;
     /* width: 100vw; */
-    opacity: 0.65;
+    /* opacity: 0.65; */
     /* color: black; */
 }
 
@@ -37,7 +38,7 @@
 .head li{
     display: inline-block;
     padding-inline: 10px;
-    color: black;
+    color: blue;
     font-weight: 500;
     margin: 60px 45px;
     font-size: large;
@@ -61,6 +62,20 @@
     left: 25vw;
 }
 
+.slogan{
+    /* height: 80vh; */
+    font-size: 50px;
+    margin-top: 20vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.mainText{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5vh;
+    font-size: 20px;
+    padding: 0 20vw 0 20vw;
+}
+
 /* FOOTER */
 footer{
     height: 25vh;
@@ -71,6 +86,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
